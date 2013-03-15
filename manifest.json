@@ -1,0 +1,13 @@
+{
+  "name": "Facebook tag abuse prevention",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "description": "Remind Chris Peterson to consider what he does with his life before tagging rfong on Facebook.",
+  "background": { "scripts": ["petey.js"] },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "<all_urls>"
+  ]
+}
